@@ -18,7 +18,7 @@ function ErrorPage() {
         <p className="output">Please try to come back later !</p>
         <p className="output">Good luck.</p>
         <div className="btn-error">
-          <Button to="/" buttonStyle="btn--outline">
+          <Button to="/trvl" buttonStyle="btn--outline">
             RETURN TO HOMEPAGE
           </Button>
         </div>
