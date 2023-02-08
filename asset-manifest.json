@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/trvl/static/css/main.317b50b6.css",
-    "main.js": "/trvl/static/js/main.a1099bdf.js",
+    "main.js": "/trvl/static/js/main.cb28bae8.js",
     "static/media/bali.jpg": "/trvl/static/media/bali.c7834b59e91ea1822070.jpg",
     "static/media/img-2.jpg": "/trvl/static/media/img-2.e4ec30ea77b039d19eb7.jpg",
     "static/media/img-8.jpg": "/trvl/static/media/img-8.8efba4303494c6bc0ac6.jpg",
     "static/media/img-1.jpg": "/trvl/static/media/img-1.6caf1c114997a21a0eb5.jpg",
     "index.html": "/trvl/index.html",
     "main.317b50b6.css.map": "/trvl/static/css/main.317b50b6.css.map",
-    "main.a1099bdf.js.map": "/trvl/static/js/main.a1099bdf.js.map"
+    "main.cb28bae8.js.map": "/trvl/static/js/main.cb28bae8.js.map"
   },
   "entrypoints": [
     "static/css/main.317b50b6.css",
-    "static/js/main.a1099bdf.js"
+    "static/js/main.cb28bae8.js"
   ]
 }
