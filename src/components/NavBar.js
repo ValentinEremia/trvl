@@ -27,7 +27,7 @@ function NavBar() {
     <nav className="navbar">
       <div className="navbar-container">
         {/* LOGO */}
-        <Link to="/trvl" className="navbar-logo" onClick={closeMobileMenu}>
+        <Link to="/trvl/" className="navbar-logo" onClick={closeMobileMenu}>
           TRVL <i className="fab fa-typo3"></i>
         </Link>
 
@@ -39,7 +39,7 @@ function NavBar() {
         {/* NAVIGATION MENU */}
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/trvl" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/trvl/" className="nav-links" onClick={closeMobileMenu}>
               Home
             </Link>
           </li>
