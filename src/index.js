@@ -1,16 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter,  Navigate,  RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
 import App from "./App";
- 
+
 import ErrorPage from "./components/ErrorPage";
+ 
 
 import Products from "./pages/Products";
 import Services from "./pages/Services";
 import SignUp from "./pages/SignUp";
 
 
-const router = createBrowserRouter([
+const router = createBrowserRouter( 
+  [
+ 
   {
     path: "/trvl",
     element: <App />,
@@ -37,13 +44,14 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element:  <Navigate to='/404' replace /> ,
-  }
+    element: <Navigate to="/404" replace />,
+  },
 ]);
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    
     <RouterProvider router={router} />
   </React.StrictMode>
 );

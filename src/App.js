@@ -3,13 +3,14 @@ import React from "react";
 import NavBar from "./components/NavBar";
 import "./App.css";
 import Home from "./pages/Home";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 
 function App() {
   return (
     <>
-    
+    <ScrollToTop />
    <NavBar/>
    <Home/>
     </>
